@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Fertilizer Guide</title>
+</head>
+
+<body class="bg-black flex justify-center items-center min-h-screen font-sans">
+
+  <!-- Phone Container -->
+  <div class="w-[390px] h-[844px] bg-gray-200 relative overflow-hidden">
+
+    <!-- Header Background -->
+    <div class="relative h-44 w-full">
+      <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef"
+           class="absolute inset-0 w-full h-full object-cover"
+           alt="bg"/>
+      <div class="absolute inset-0 bg-white/40"></div>
+
+      <!-- Status Bar -->
+      <div class="absolute top-3 left-5 right-5 flex justify-between text-sm font-medium text-black">
+        <span>9:41</span>
+        <div class="flex space-x-2 text-lg">
+          <span>📶</span>
+          <span>📡</span>
+          <span>🔋</span>
+        </div>
+      </div>
+
+      <!-- Title -->
+      <div class="absolute bottom-4 left-6">
+        <h1 class="text-4xl font-bold text-black">
+          Fertilizer Guide
+        </h1>
+      </div>
+    </div>
+
+    <!-- Form Section -->
+    <div class="relative px-8 pt-16 pb-28 bg-gray-200">
+
+      <!-- Crop Name -->
+      <div class="mb-10">
+        <div class="bg-green-600 text-white rounded-xl py-5 px-6 flex justify-between items-center shadow-md">
+          <span class="text-lg font-medium">Crop Name</span>
+          <span class="text-2xl">▾</span>
+        </div>
+      </div>
+
+      <!-- Crop Week -->
+      <div class="mb-10">
+        <div class="bg-green-600 text-white rounded-xl py-5 px-6 flex justify-between items-center shadow-md">
+          <span class="text-lg font-medium">Crop Week</span>
+          <span class="text-2xl">▾</span>
+        </div>
+      </div>
+
+      <!-- Area -->
+      <div class="mb-14">
+        <div class="bg-green-600 text-white rounded-xl py-5 px-6 flex justify-between items-center shadow-md">
+          <span class="text-lg font-medium">Area</span>
+          <div class="w-20 h-10 bg-gray-200 rounded-sm flex items-end justify-center">
+            <div class="w-12 border-b-2 border-gray-500 mb-2"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Submit Button -->
+      <div class="flex justify-center mt-6">
+        <a href="guid2.html"><button class="bg-yellow-400 text-black text-lg font-semibold px-16 py-3 rounded-xl border-4 border-black shadow-md active:scale-95 transition">
+          Submit
+        </button></a>
+      </div>
+
+    </div>
+
+    <!-- Bottom Navigation -->
+    <div class="absolute bottom-0 w-full bg-gray-100 py-5 flex justify-around items-center text-2xl">
+      <span>🏠</span>
+      <span>≡</span>
+      <span>👤</span>
+      <span>↩️</span>
+    </div>
+
+  </div>
+
+</body>
+</html>

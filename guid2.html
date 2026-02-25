@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Fertilizer Guide Result</title>
+</head>
+
+<body class="bg-black flex justify-center items-center min-h-screen font-sans">
+
+  <!-- Phone Container -->
+  <div class="w-[390px] h-[844px] bg-gray-200 relative overflow-hidden">
+
+    <!-- Header -->
+    <div class="relative h-44 w-full">
+      <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef"
+           class="absolute inset-0 w-full h-full object-cover"
+           alt="bg"/>
+      <div class="absolute inset-0 bg-white/30"></div>
+
+      <!-- Status Bar -->
+      <div class="absolute top-3 left-5 right-5 flex justify-between text-sm font-medium text-black">
+        <span>9:41</span>
+        <div class="flex space-x-2 text-lg">
+          <span>📶</span>
+          <span>📡</span>
+          <span>🔋</span>
+        </div>
+      </div>
+
+      <!-- Title -->
+      <div class="absolute bottom-4 left-6">
+        <h1 class="text-4xl font-bold text-black">
+          Fertilizer Guide
+        </h1>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="px-6 pt-6 pb-28 space-y-6">
+
+      <!-- Top Selection Row -->
+      <div class="flex justify-between items-center">
+        <div class="bg-lime-400 border border-black px-10 py-2 text-lg font-medium shadow">
+          Coconut
+        </div>
+
+        <div class="bg-blue-400 border border-black px-6 py-2 text-sm font-medium shadow">
+          Week - 4
+        </div>
+      </div>
+
+      <!-- Info Card -->
+      <div class="bg-yellow-400 border border-black rounded-xl shadow-lg p-5 space-y-4">
+
+        <!-- Category & Image -->
+        <div class="flex justify-between items-start">
+          <div class="space-y-3 text-sm">
+            <p><span class="font-medium">Fertilizer Category</span> : Coconut APM (D)</p>
+            <p><span class="font-medium">Ratio</span> : 12 : 06 : 32</p>
+          </div>
+
+          <img src="https://via.placeholder.com/60x100"
+               class="h-20 object-contain"
+               alt="fertilizer"/>
+        </div>
+
+        <!-- How To Apply -->
+        <div class="text-sm space-y-3">
+          <p class="font-medium">How to Apply :-</p>
+          <ol class="list-decimal ml-5 space-y-2">
+            <li>
+              Fertilizer should be applied in a circular pattern,
+              1 foot away from the base of the plant in the first 1–1½ years.
+            </li>
+            <li>
+              Distance of application from the base of the tree
+              should gradually increase with growth.
+            </li>
+          </ol>
+        </div>
+
+        <!-- Write Inquiry -->
+        <div class="flex justify-end mt-3">
+          <div class="flex overflow-hidden rounded-lg shadow">
+            <input type="text"
+                   placeholder="Write Inquiry"
+                   class="px-4 py-2 text-sm bg-white outline-none"/>
+            <button class="bg-green-500 px-4 text-white">
+              ➤
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom Buttons -->
+      <div class="flex justify-between pt-4">
+
+        <button class="bg-red-400 border border-black rounded-xl px-5 py-3 text-sm shadow-md flex items-center space-x-2">
+          <span>⏮</span>
+          <span>Previous Week</span>
+        </button>
+
+        <button class="bg-green-500 border border-black rounded-xl px-6 py-3 text-sm shadow-md flex items-center space-x-2">
+          <a href="signup.html"><span>Next Week</span></a>
+          <span>⏭</span>
+        </button>
+
+      </div>
+
+    </div>
+
+    <!-- Bottom Navigation -->
+    <div class="absolute bottom-0 w-full bg-gray-100 py-5 flex justify-around items-center text-2xl">
+      <span>🏠</span>
+      <span>≡</span>
+      <span>👤</span>
+      <span>↩️</span>
+    </div>
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Dashboard</title>
+</head>
+
+<body class="bg-black flex justify-center items-center min-h-screen font-sans">
+
+  <!-- Phone Container -->
+  <div class="w-[390px] h-[844px] bg-gray-200 relative overflow-hidden">
+
+    <!-- Header Background -->
+    <div class="relative h-56 w-full">
+      <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef"
+           class="absolute inset-0 w-full h-full object-cover"
+           alt="bg"/>
+      <div class="absolute inset-0 bg-black/30"></div>
+
+      <!-- Status Bar -->
+      <div class="absolute top-3 left-5 right-5 flex justify-between text-sm font-medium text-black">
+        <span>9:41</span>
+        <div class="flex space-x-2 text-lg">
+          <span>📶</span>
+          <span>📡</span>
+          <span>🔋</span>
+        </div>
+      </div>
+
+      <!-- Greeting -->
+      <div class="absolute bottom-6 left-6 right-6 flex justify-between items-center">
+        <h1 class="text-white text-4xl font-semibold">
+          Hi,Saman
+        </h1>
+
+        <!-- Profile Circle -->
+        <div class="w-14 h-14 bg-white rounded-full flex items-center justify-center shadow">
+          👨‍🌾
+        </div>
+      </div>
+    </div>
+
+    <!-- Content Area -->
+    <div class="bg-gray-500/60 backdrop-blur-sm pt-10 pb-28 px-8 space-y-12">
+
+      <!-- Row 1 -->
+      <div class="grid grid-cols-2 gap-10">
+
+        <!-- My Products -->
+        <div class="relative flex justify-center">
+          <div class="w-36 h-36 bg-white rounded-xl flex flex-col items-center justify-center text-center shadow-md border-[10px] border-green-900">
+            <span class="font-semibold text-gray-800">My<br/>Products</span>
+          </div>
+          <div class="absolute -top-5 bg-lime-400 w-14 h-14 rounded-xl flex items-center justify-center shadow">
+            🕶️
+          </div>
+        </div>
+
+        <!-- Orders -->
+        <div class="relative flex justify-center">
+          <div class="w-36 h-36 bg-white rounded-xl flex flex-col items-center justify-center text-center shadow-md border-[10px] border-indigo-600">
+            <a href="order.html"><span class="font-semibold text-gray-800">Orders</span></a>
+          </div>
+          <div class="absolute -top-5 bg-lime-400 w-14 h-14 rounded-xl flex items-center justify-center shadow">
+            🔋
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Row 2 -->
+      <div class="grid grid-cols-2 gap-10">
+
+        <!-- Payment -->
+        <div class="relative flex justify-center">
+          <div class="w-36 h-36 bg-white rounded-xl flex flex-col items-center justify-center text-center shadow-md border-[10px] border-green-600">
+            <span class="font-semibold text-gray-800">Payment</span>
+          </div>
+          <div class="absolute -top-5 bg-lime-400 w-14 h-14 rounded-xl flex items-center justify-center shadow">
+            💳
+          </div>
+        </div>
+
+        <!-- Customer Chat -->
+        <div class="relative flex justify-center">
+          <div class="w-36 h-36 bg-white rounded-xl flex flex-col items-center justify-center text-center shadow-md border-[10px] border-red-500">
+            <span class="font-semibold text-gray-800">Customer<br/>Chat</span>
+          </div>
+          <div class="absolute -top-5 bg-lime-400 w-14 h-14 rounded-xl flex items-center justify-center shadow">
+            💬
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Store Locator -->
+      <div class="flex items-center space-x-4 text-white mt-6">
+        <div class="text-4xl">🏪</div>
+        <div>
+          <p class="font-semibold text-lg">Store Locator</p>
+          <p class="text-sm text-gray-200">Find Your Nearest Store</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom Navigation -->
+    <div class="absolute bottom-0 w-full bg-gray-100 py-5 flex justify-around items-center text-2xl">
+      <span>🏠</span>
+      <span>≡</span>
+      <span>👤</span>
+      <span>↩️</span>
+    </div>
+
+  </div>
+
+</body>
+</html>
